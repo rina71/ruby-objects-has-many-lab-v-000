@@ -19,8 +19,8 @@ class Artist
     song.artist = self
   end
 
-  def self.song_count
-    # binding.pry
+  # def self.song_count
+  #   # binding.pry
     @songs.count == @@song_count
   end
 
