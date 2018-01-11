@@ -4,8 +4,10 @@ class Song
   def initialize(name)
     @name = name
     # @artist = artist
-    # self.artist = Artist
   end
 
+def artist
+
+end
 
 end
