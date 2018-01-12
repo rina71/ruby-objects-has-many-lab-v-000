@@ -5,13 +5,13 @@ class Artist
   def initialize(name)
     @songs = []
     @name = name
-  
+
   end
 
   def add_song(song)
     # Song.new(song)
     @songs << song
-
+    @@song_count += 1
     song.artist = self
   end
 
