@@ -20,6 +20,7 @@ class Artist
     self.songs << song
     # @@song_count += 1
     song.artist = self
+    @@song_count += 1
 
   end
 
